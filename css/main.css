@@ -44,7 +44,15 @@ body {
     font-size: 12px;
 }
 
-#content {
-    width: 66%;
-    margin: 0 auto;
+.content {
+
+}
+
+.container {
+    max-width: 90%;
+    justify-content: center;
+}
+
+section {
+    margin: 5%;
 }
