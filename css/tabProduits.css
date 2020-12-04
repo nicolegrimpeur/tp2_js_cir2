@@ -1,0 +1,29 @@
+/* class pour l'alignement des images et du texte pour la présentation des recettes  */
+.menu-post-img img {
+    border-radius: 99em;
+    height: 65px;
+    width: 65px;
+}
+
+.menu-post-img {
+    display: block;
+    float: left;
+    position: relative;
+    top: -5px;
+    margin-bottom: 4%;
+}
+
+.menu-text {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.menu-post-desc {
+    margin-left: 70px;
+}
+
+.produits {
+    font-size: 23px;
+    text-align: left;
+    margin-bottom: 0;
+}

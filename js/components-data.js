@@ -25,10 +25,3 @@ let components_data = [
     {idComp:'23', name:'Vanille', needRecipe:'1', price:'4', type:'food', buyInBulk:'1', percentUsed:'0.5'},
     {idComp:'24', name:'Canelle', needRecipe:'1', price:'3', type:'food', buyInBulk:'1', percentUsed:'0.5'},
 ];
-
-// composant product
-// module composant
-// création ligne composant
-// création ligne produit
-// 1 module création tableau composant
-// 1 module création un tableau produit

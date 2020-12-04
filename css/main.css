@@ -5,29 +5,90 @@ html {
 
 body {
     color: #444;
-    /* Margin bottom by footer height */
     margin: 0 0 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#header {
-    margin: 1em;
-    padding: 0.3em 0.5em;
-    border-left: 5px solid #888;
-    border-bottom: 5px solid #888;
-    color: #888;
+
+/* header */
+.logo {
+    margin: 16px 36px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
-#header h1 {
-    padding: 0;
-    margin: 0;
-    font-family: Verdana, sans-serif;
-    font-size: xx-large;
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 40px;
+    transition: 1s;
 }
 
-#header h1 .subtitle {
-    font-size: x-large;
+nav.black {
+    z-index: 10;
+    background: black;
+    display: inline-block;
+    padding: 0 20px;
 }
 
+nav ul li {
+    display: inline-block;
+    padding: 16px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
+}
+
+.menu {
+    margin-left: -10%;
+}
+
+.boutons:hover {
+    color: HighlightText;
+}
+
+/* classe pour le fond d'écran de l'accueil principal  */
+.masthead {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url(../assets/diy.jpg);
+    background-size: cover;
+}
+/* fin header */
+
+/* body */
+p {
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+th {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 90%;
+    justify-content: center;
+}
+
+section {
+    margin: 5%;
+}
+/* fin body */
+
+/* footer */
 #footer {
     position: absolute;
     bottom: 0;
@@ -42,17 +103,7 @@ body {
     padding: 0;
     margin: 9px 0 0 0;
     font-size: 12px;
+    text-align: center;
+    font-weight: normal;
 }
-
-.content {
-
-}
-
-.container {
-    max-width: 90%;
-    justify-content: center;
-}
-
-section {
-    margin: 5%;
-}
+/*fin footer*/
